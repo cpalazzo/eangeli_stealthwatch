@@ -24,16 +24,21 @@ assumptions, solution, and tests are in the code located in src/main and src/tes
 ##Question 3
 Assume a database with the following structure:
 Members
+
 |ID |NAME|ADDRESS|PHONE|NUMBER|AGE|
+
 |---|----|-------|-----|------|---|
 
 Organization
+
 |ID |MEMBER_ID|LOCATION|DUES|
+
 |---|---------|--------|----|
 
 1.     Write a query that lists each member name, address, dues and location.
 2.     Write a SQL Query to pull all members that are over 45
 3.     Write a SQL Query to pull all members that have a dues value of 0.
+
 ###Please see modules/problem3
 assumptions, solution, and tests are in the code located in src/main and src/test
 the actual queries can be found either in the test code or in modules/problem3/src/main/resources and includes
