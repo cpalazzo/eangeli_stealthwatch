@@ -1,0 +1,4 @@
+dependencies{
+    compile 'org.postgresql:postgresql:9.4.1209'+(project.javaVersion.equals("7")?'.jre7':'')
+    testCompile "org.testng:testng:6.9.10"
+}
